@@ -17,7 +17,7 @@ cs-2430-project1/
 ## Getting Started
 
 ### Prerequisites
-- Java Development Kit (JDK) 8 or higher
+- Java Development Kit (JDK) 25 or higher
 - IDE: IntelliJ IDEA or any Java-compatible IDE
 
 ### Building and Running
@@ -35,19 +35,21 @@ java -cp src test.Test
 ## Project Details
 - **Course**: CSIS 2430
 - **Team**: Awesome Sauce
-- **Status**: In Development
+- **Verification Lead**: Ben Paul
+- **Implementation Lead**: Noah Kohling
+- **Communications Lead**: Nelson Long
 
 ## Files
 - `src/test/Test.java` - Main Java class with hello world example
 - `docs/` - Project planning and documentation
 
 ## Notes
-- The project uses standard Java packages
-- Currently includes a basic Test class with a main method
+- The project uses Java 25.
 
 ## Contributing
 Team members should follow the project plan outlined in the docs folder.
+-
 
 ---
-*Last Updated: February 2026*
+*Last Updated: February 23 2026*
 
