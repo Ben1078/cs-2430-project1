@@ -1,7 +1,7 @@
 # CS-2430 Project 1
 
 ## Project Overview
-This is a Java project for CSIS 2430 course.
+This is a Java project for CSIS 2430. 
 
 ## Project Structure
 ```
@@ -10,7 +10,8 @@ cs-2430-project1/
 │   └── test/
 │       └── Test.java
 ├── docs/
-│   └── Project planning documents
+│   ├── CSIS2430_TeamAwesomeSauce_ProjectPlan_v01.xlsx
+│   └── ScopeDocument.md
 └── README.md
 ```
 
@@ -42,12 +43,10 @@ java -cp src test.Test
 ## Files
 - `src/test/Test.java` - Main Java class with hello world example
 - `docs/` - Project planning and documentation
+- `docs/ScopeDocument.md` - Scope Definitions for Project 
 
 ## Notes
-- The project uses Java 25.
-
-## Contributing
-Team members should follow the project plan outlined in the docs folder.
+- N/A
 -
 
 ---
