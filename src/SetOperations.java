@@ -340,7 +340,7 @@ public class SetOperations {
         }
 
         System.out.println("}");
-        System.out.println(); // spacing
+        System.out.println();
     }
 
     /**
