@@ -11,6 +11,7 @@ cs-2430-project1/
 │       └── Test.java
 ├── docs/
 │   ├── CSIS2430_TeamAwesomeSauce_ProjectPlan_v01.xlsx
+|   ├── Project1_Pseudo.txt
 │   └── ScopeDocument.md
 └── README.md
 ```
