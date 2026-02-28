@@ -1,0 +1,88 @@
+Pseudocode
+Part 1:
+ static String[] U = {... 10+ items ...};
+
+public static void main(String[] args) {
+runOrdinarySetTests(); // 2-3 tests
+runMultisetTests(); // 2-3 tests
+}
+
+// Part 1 methods: boolean[] -> boolean[]
+static boolean[] union(boolean[] A, boolean[] B) { ... }
+static boolean[] intersection(boolean[] A, boolean[] B) { ... }
+static boolean[] difference(boolean[] A, boolean[] B) { ... }
+static boolean[] complement(boolean[] A) { ... }
+static boolean[] symDiff(boolean[] A, boolean[] B) { ... }
+
+/*
+* —--------------Part 1 more detailed—-----------------
+*/
+function complement(A):
+C = new boolean[n]
+for i = 0..n-1:
+C[i] = NOT A[i]
+return C
+
+function union(A, B):
+C = new boolean[n]
+for i = 0..n-1:
+C[i] = A[i] OR B[i]
+return C
+
+function intersection(A, B):
+C = new boolean[n]
+for i = 0..n-1:
+C[i] = A[i] AND B[i]
+return C
+Part 2:
+function difference(A, B): // A - B
+C = new boolean[n]
+for i = 0..n-1:
+C[i] = A[i] AND (NOT B[i])
+return C
+
+function symDiff(A, B):
+C = new boolean[n]
+for i = 0..n-1:
+C[i] = A[i] XOR B[i]
+return C
+
+
+// Part 2 methods: int[] -> int[]
+static int[] mUnion(int[] A, int[] B) { ... }
+static int[] mIntersection(int[] A, int[] B) { ... }
+static int[] mDifference(int[] A, int[] B) { ... }
+static int[] mSum(int[] A, int[] B) { ... }
+
+/*
+* —--------------Part 2 more detailed—-----------------
+*/
+function mUnion(A, B):
+  C = new int[n]
+  for i = 0..n-1:
+    C[i] = max(A[i], B[i])
+  return C
+
+function mIntersection(A, B):
+  C = new int[n]
+  for i = 0..n-1:
+    C[i] = min(A[i], B[i])
+  return C
+
+function mDifference(A, B):   // A - B
+  C = new int[n]
+  for i = 0..n-1:
+    C[i] = A[i] - B[i]
+    if C[i] < 0: C[i] = 0
+  return C
+
+function mSum(A, B):
+  C = new int[n]
+  for i = 0..n-1:
+    C[i] = A[i] + B[i]
+  return C
+
+
+// Printing helpers
+static void printSet(String label, boolean[] S) { prints bits + {names} }
+static void printMultiset(String label, int[] M) { prints counts + {name×count} }
