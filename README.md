@@ -7,11 +7,13 @@ This is a Java project for CSIS 2430.
 ```
 cs-2430-project1/
 ├── src/
-│   └── test/
-│       └── Test.java
+│   └── SetOperations.java
+├── test/
+│   └── SetOperationsTest.java
 ├── docs/
+│   ├── CONTRIBUTIONS.md
 │   ├── CSIS2430_TeamAwesomeSauce_ProjectPlan_v01.xlsx
-|   ├── Project1_Pseudo.txt
+│   ├── Project1_Pseudo.txt
 │   └── ScopeDocument.md
 └── README.md
 ```
@@ -26,12 +28,13 @@ cs-2430-project1/
 
 #### Compile the project:
 ```bash
-javac src/test/Test.java
+javac src/SetOperations.java
+javac -cp src test/SetOperationsTest.java
 ```
 
-#### Run the main program:
+#### Run the tests:
 ```bash
-java -cp src test.Test
+java -cp src:test SetOperationsTest
 ```
 
 ## Project Details
@@ -42,14 +45,16 @@ java -cp src test.Test
 - **Communications Lead**: Nelson Long
 
 ## Files
-- `src/test/Test.java` - Main Java class with hello world example
-- `docs/` - Project planning and documentation
+- `src/SetOperations.java` - Main Java class implementing set operations
+- `test/SetOperationsTest.java` - Unit tests for SetOperations
+- `docs/CONTRIBUTIONS.md` - Contribution guidelines
+- `docs/CSIS2430_TeamAwesomeSauce_ProjectPlan_v01.xlsx` - Project planning spreadsheet
+- `docs/Project1_Pseudo.txt` - Pseudocode for Project 1
 - `docs/ScopeDocument.md` - Scope Definitions for Project 
 
 ## Notes
-- N/A
--
+- This project focuses on implementing set operations in Java
 
 ---
-*Last Updated: February 23 2026*
+*Last Updated: March 3, 2026*
 
