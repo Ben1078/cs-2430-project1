@@ -41,7 +41,7 @@ java -cp src:test SetOperationsTest
 - **Course**: CSIS 2430
 - **Team**: Awesome Sauce
 - **Verification Lead**: Ben Paul
-- **Implementation Lead**: Noah Kohling
+- **Implementation Lead**: Noah Kolling
 - **Communications Lead**: Nelson Long
 
 ## Files
