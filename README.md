@@ -1,7 +1,7 @@
 # CS-2430 Project 1
 
 ## Project Overview
-This is a Java project for CSIS 2430. 
+This is a Java project for CSIS 2430 regarding set operations.
 
 ## Project Structure
 ```
