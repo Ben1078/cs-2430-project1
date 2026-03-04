@@ -10,7 +10,7 @@
 * **Assigned Role:** Verification Lead
 * **Responsibilities:**
     * Created JUnit 5 test suite (`SetOperationsTest.java`) covering all 9 operations
-    * Authored
+    * Authored `ScopeDocument.md`
     * Hand-calculated expected outputs for representative test cases
     * Designed edge cases (empty set / empty bag identity properties)
     * Set up personal IntelliJ coding environment
